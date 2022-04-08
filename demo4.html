@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GameDemo</title>
+    <link rel="stylesheet" href="./css/gameStyle.css">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script defer src="./js/gameDemo.js"></script>
+</head>
+<body>
+    <center>    
+        小张反应速度:<input type="text" id="speed" value="100~1000ms">&nbsp;<button id="startEat">开始吃榴莲!</button>
+    </center>
+    <canvas id="snake" width="512" height="512"></canvas>
+    <br>
+    <div id="menu" style="height:150px;width:150px;float:left;">
+        <button class="dispear"></button><button class="normol-button" id="upMove">上</button><br>
+        <button class="normol-button" id="leftMove">左</button><button class="dispear"></button><button class="normol-button" id="rightMove">右</button><br>
+        <button class="dispear"></button><button class="normol-button" id="downMove">下</button></div>
+</body>
+</html>

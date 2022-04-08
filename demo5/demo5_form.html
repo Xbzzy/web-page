@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+        <link rel="stylesheet" href="../css/formGray.css">
+        <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+        <script src="../js/tellWish.js"></script>
+    </head>
+    <body>
+        <br>
+        <br>
+        <form action="" method="post" class="basic-grey">
+            <h1>小羊的小试卷
+                <span>请仔细斟酌后再填写噢~</span>
+            </h1>
+            <h3>Select: (40 points)</h3>
+            <span>1.Favorite color :</span><br>
+			<select id="one" onchange="changeStyle();">
+                <option selected="selected" disabled="disabled"  style='display: none' value=''></option>
+				<option value="black">black</option>
+				<option value="blue">blue</option>
+				<option value="green">green</option>
+			</select><br>    
+            <span>2.In rainy evening,i am most afraid of :</span><br>
+            <select id="two" onchange="changeStyle();">
+                <option selected="selected" disabled="disabled"  style='display: none' value=''></option>
+				<option value="windy">windy</option>
+				<option value="thunder">thunder</option>
+				<option value="ghost">ghost</option>
+            </select><br>
+            <span>3.Among the following options,i hate the most :</span><br>
+            <select id="three" onchange="changeStyle();">
+                <option selected="selected" disabled="disabled"  style='display: none' value=''></option>
+				<option value="celery">celery</option>
+				<option value="tomato">tomato</option>
+				<option value="cucumber">cucumber</option>
+            </select><br>
+            <span>4.Among the following options,i like the most :</span><br>
+            <select id="four" onchange="changeStyle();">
+                <option selected="selected" disabled="disabled"  style='display: none' value=''></option>
+				<option value="pitaya">pitaya</option>
+				<option value="apple">apple</option>
+				<option value="mango">mango</option>
+            </select><br>
+            <span>5.Among the following potato chips taste,i can not understand :</span><br>
+            <select id="five" onchange="changeStyle();">
+                <option selected="selected" disabled="disabled"  style='display: none' value=''></option>
+				<option value="cucumber">cucumber</option>
+				<option value="lemon">lemon</option>
+				<option value="avocado">avocado</option>
+            </select><br>
+            <span>6.In 2024,i want to take you to ChengDu for :</span><br>
+            <select id="six" onchange="changeStyle();">
+                <option selected="selected" disabled="disabled"  style='display: none' value=''></option>
+				<option value="discovery">discovery food</option>
+				<option value="horticultural">horticultural exposition</option>
+				<option value="home">set up a home</option>
+            </select><br>
+            <span>7.On May Day 2020,what kind of car did we missed :</span><br>
+            <select id="seven" onchange="changeStyle();">
+                <option selected="selected" disabled="disabled"  style='display: none' value=''></option>
+				<option value="bus">bus</option>
+				<option value="sightseeing">sightseeing car</option>
+				<option value="texi">texi</option>
+            </select><br>
+            <span>8.In 2021,i got you a lipstick called :</span><br>
+            <select id="eight" onchange="changeStyle();">
+                <option selected="selected" disabled="disabled"  style='display: none' value=''></option>
+				<option value="huaxizi">huaxizi</option>
+				<option value="mac">mac</option>
+				<option value="givenchy">givenchy</option>
+            </select><br>
+            <h3>True or false: (40 points)</h3>
+            <span>9.I am introverted in front of strangers :</span>
+            true<input type="radio" id="nine_true" name="nine">false<input type="radio" id="nine_false" name="nine"><br>
+            <br>
+            <span>10.I am always reasonable in a relationship :</span>
+            true<input type="radio" id="ten_true" name="ten">false<input type="radio" id="ten_false" name="ten"><br>
+            <br>
+            <span>11.I am always make plans :</span>
+            true<input type="radio" id="eleven_true" name="eleven">false<input type="radio" id="eleven_false" name="eleven"><br>
+            <br>
+            <span>12.My face is always dry after shower :</span>
+            true<input type="radio" id="twelve_true" name="twelve">false<input type="radio" id="twelve_false" name="twelve"><br>
+            <br>
+            <span>13.I like camping out for a picnic :</span>
+            true<input type="radio" id="thirteen_true" name="thirteen">false<input type="radio" id="thirteen_false" name="thirteen"><br>
+            <br>
+            <h3>Gap filling: (20 points)</h3>
+            <span>14.The full name of my current major :(in english lowercase)</span>
+            <input type="text" id="fourteen"><br>
+            <span>15.In your birthday,I want to take you to do what you said it :(two words in english lowercase)</span>
+            <input type="text" id="fiveteen"><br>
+            <br>
+            <button id="end">submit</button>  
+        </form>
+        
+    </body>
+</html>

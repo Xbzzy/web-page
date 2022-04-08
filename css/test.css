@@ -1,0 +1,16 @@
+.scale {
+    background-size: contain;
+    width:100%;   
+    height:auto; 
+}
+
+.img-responsive {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+}
+
+.login-menu {
+    border-style: solid;
+    background-color: rgb(23, 34, 140);
+}
